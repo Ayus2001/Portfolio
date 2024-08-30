@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+}
+.projects-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.projects-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.education-section {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.education-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 60%;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education-card h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.education-card h4 {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.education-card p {
+  color: #555;
+}
+
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
+  color: #333;
+}
+
+.project-card p {
+  color: #555;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.Nav{
+  background-color: rgb(4, 4, 55);
+}
+body{
+  background-color: #282c34;
+}
+.skills {
+  margin-top: 150px;
+  margin-left: 25%;
+  color: cornsilk;
+
+  width: 800px;
+gap: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intern{
+  display: flex;
+  gap: 100px;
+  color: aliceblue;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.imgss{
+  height: 100px;
+  border-radius: 30px;
+}
+.imgsss {
+  margin-right: 50px;
+  transition: height 0.3s ease; /* Smooth transition for height change */
+  height: 200px; /* Default height */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.imgsss:hover {
+  height: 600px; /* Height on hover */
+  cursor: pointer; /* Optional: show pointer cursor on hover */
+}
+.contact {
+  margin-top: 500px;
+  height: 200px;
+  width: 600px;
+  color: blueviolet;
+  border: 1px solid black; /* Fixed the border syntax */
+  padding: 20px; /* Added padding for better spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle shadow for better visual appeal */
+  border-radius: 8px; /* Added rounded corners */
+  margin: 20px auto; /* Centered the contact box */
+  text-align: center; /* Centered the text */
+}
+.bod{
+  width: 500px;
+}
+
+
+.imgset {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 20px; /* Optional: Adds space between the images */
+}
+
+.pic {
+  height: 150px;
+  width: 150px;
+  object-fit: cover; /* Ensures the images maintain aspect ratio within the given dimensions */
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.tbox{
+  width:700px;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+.profile-pic{
+  margin-left: 100px;
+  margin-top: 100px;
+  border-radius: 20px;
+  height: 350px;
+}
+.soc{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  color: rgb(249, 185, 20);
+}
+.role{
+  color: coral;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+   
+  }
+}
+.intro {
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size: 25px;
+ line-height: 1.5;
+ color: #ab9b9b;
+ margin: 20px 0;
+ white-space: wrap;
+ overflow: hidden;
+ border-right: 2px solid;
+ width: 0;
+ animation: typewriter 3s steps(40) 1s forwards, blink 0.75s step-end infinite;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
